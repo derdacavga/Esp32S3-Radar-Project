@@ -8,6 +8,9 @@ I made Esp32s3 radar project. Already display scanned are on ILI9341 tft Screen.
 ## Using Parts
 
 Esp32S3 Development Board
+
 SG90 Micro Servo Motor
+
 ILI9341 Display Module
+
 HC-SR04 Ultrasonic Distance Snsor
