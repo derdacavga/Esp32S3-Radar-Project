@@ -14,7 +14,7 @@ const int SCREEN_W = 320;
 const int SCREEN_H = 240;
 const int CX = SCREEN_W / 2;
 const int CY = SCREEN_H - 10;
-const int MAX_RADIUS = 110;
+const int MAX_RADIUS = 150;
 const int MAX_RANGE_CM = 50; //2-400
 const int ANGLE_MIN = 0;
 const int ANGLE_MAX = 180;
@@ -105,7 +105,7 @@ void drawDetections() {
     int rpx = distToRadius(d);
     int x = CX + (int)(rpx * cos(rad));
     int y = CY - (int)(rpx * sin(rad));
-    uint16_t color = (d < 25) ? TFT_RED : (d < 40 ? TFT_YELLOW : TFT_GREEN);
+    uint16_t color = (d < 25) ? TFT_RED : (d < 40 ? TFT_WHITE : TFT_BLUE);
     radarSprite.fillCircle(x, y, 3, color);
   }
 }
@@ -114,7 +114,7 @@ void updateRadarSweep(int angle) {
   float rad = angle * PI / 180.0;
   int x = CX + (int)(MAX_RADIUS * cos(rad));
   int y = CY - (int)(MAX_RADIUS * sin(rad));
-  radarSprite.drawLine(CX, CY, x, y, TFT_CYAN);
+  radarSprite.drawLine(CX, CY, x, y, TFT_GREEN);
   prevX = x;
   prevY = y;
 }
