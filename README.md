@@ -5,6 +5,26 @@ I made Esp32s3 radar project. Already display scanned are on ILI9341 tft Screen.
 
 [![V1](https://img.youtube.com/vi/t4QVxeeEtEQ/0.jpg)](https://youtu.be/t4QVxeeEtEQ)
 
+## Pin Configuration
+
+ TRIG_PIN      7
+ 
+ ECHO_PIN      16 
+ 
+ SERVO_PIN     17 
+
+ TFT_MISO      13
+ 
+ TFT_MOSI      11
+ 
+ TFT_SCLK      12
+ 
+ TFT_CS        4
+ 
+ TFT_DC        15
+ 
+ TFT_RST       9
+ 
 ## Using Parts
 
 Esp32S3 Development Board
@@ -14,3 +34,13 @@ SG90 Micro Servo Motor
 ILI9341 Display Module
 
 HC-SR04 Ultrasonic Distance Snsor
+
+Half Sized BreadBoard
+
+## Links
+
+3D Model : https://cults3d.com/en/3d-model/gadget/ili9341-radar-proect-3d-model
+
+TFT_eSPI : https://github.com/Bodmer/TFT_eSPI
+
+ESP32Servo : https://github.com/jkb-git/ESP32Servo
