@@ -1,9 +1,13 @@
 # Esp32S3-Radar-Project
 I made Esp32s3 radar project. Already display scanned are on ILI9341 tft Screen. 
 
-## Video Tutorial
+## Video Tutorial ILI9341, Esp32S3
 
 [![V1](https://img.youtube.com/vi/t4QVxeeEtEQ/0.jpg)](https://youtu.be/t4QVxeeEtEQ)
+
+## Video Tutorial HX1230, Arduino Naon
+
+[![V1](https://img.youtube.com/vi/ZPAreG4C7p0/0.jpg)](https://youtu.be/ZPAreG4C7p0)
 
 ## Pin Configuration
 
